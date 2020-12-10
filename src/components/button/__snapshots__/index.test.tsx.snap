@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ForwardRef(Themed.Button)
+  background={
+    Object {
+      "borderless": undefined,
+      "color": 4294967295,
+      "type": "RippleAndroid",
+    }
+  }
+  buttonStyle={
+    Array [
+      Object {
+        "backgroundColor": "rgb(68, 57, 176)",
+        "borderColor": "rgb(204, 204, 204)",
+        "borderRadius": 50,
+        "borderWidth": 2,
+        "elevation": 2,
+        "height": 50,
+      },
+      Object {},
+    ]
+  }
+  containerStyle={
+    Array [
+      Object {},
+      Object {
+        "width": "100%",
+      },
+      Object {},
+    ]
+  }
+  disabled={false}
+  disabledStyle={
+    Array [
+      Object {
+        "backgroundColor": "rgb(204, 204, 204)",
+        "borderColor": "rgb(204, 204, 204)",
+        "shadowColor": "rgb(204, 204, 204)",
+      },
+      Object {},
+    ]
+  }
+  loading={false}
+  loadingProps={
+    Object {
+      "color": "rgb(256, 256, 256)",
+      "size": "large",
+    }
+  }
+  style={
+    Object {
+      "borderRadius": 2,
+    }
+  }
+  testID="touchable"
+  titleStyle={
+    Array [
+      Object {
+        "color": "rgb(256, 256, 256)",
+        "fontFamily": "OpenSans-SemiBold",
+        "fontSize": 16,
+      },
+      Object {},
+    ]
+  }
+>
+  <Text>
+    Hello
+  </Text>
+</ForwardRef(Themed.Button)>
+`;

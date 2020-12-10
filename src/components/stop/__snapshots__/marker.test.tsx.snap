@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StopMarker renders 1`] = `
+<MapMarker
+  anchor={
+    Object {
+      "x": 0.5,
+      "y": 0.5,
+    }
+  }
+  coordinate={
+    Object {
+      "latitude": 0,
+      "longitude": 0,
+    }
+  }
+  height={50}
+  onPress={[Function]}
+  stopPropagation={false}
+  style={
+    Object {
+      "zIndex": 1000,
+    }
+  }
+  width={50}
+>
+  <StopIcon
+    size={50}
+    type="bus"
+  />
+</MapMarker>
+`;
